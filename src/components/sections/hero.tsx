@@ -113,7 +113,7 @@ export const Hero = ({ texts }: Props) => {
           <div className="flex items-center gap-4 mt-4">
             <Button
               onClick={() => {
-                downloadFile("/assets/cv.pdf", "EnzoWuCV.pdf");
+                downloadFile("/assets/cv.pdf", "Abdelrahman mohamed.pdf");
               }}
               data-tooltip-id="my-tooltip"
               data-tooltip-content="CV"
