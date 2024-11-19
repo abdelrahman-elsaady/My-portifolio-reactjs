@@ -60,7 +60,7 @@ export const projects: ProjectsTexts = {
       link:"https://movie-app-beta-wheat.vercel.app/"
     },
     {
-      title: "Dashbourd for  clone",
+      title: "mostaqel clone Dashbourd",
 
       description: "Dashbourd for mostaqel clone using Angular and Nodejs.",
       tags: [tags["Angular"], tags["Node.js"]],
