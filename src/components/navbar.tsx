@@ -18,7 +18,7 @@ export const Navbar = ({ text }: Props) => {
   return (
     <nav
       className={cn(
-        "fixed left-0 right-0 z-20 px-8 ",
+        "fixed left-0 right-0 z-20 px-8 bg-dark-gray/80 backdrop-blur-sm",
         isOpen && "max-md:bg-dark-gray"
       )}
     >
