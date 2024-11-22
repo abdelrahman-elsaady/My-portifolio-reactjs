@@ -9,14 +9,7 @@ export const metadata: Metadata = {
   title: "Abdelrahman | portfolio",
   description: "Portfolio de Abdelrahman",
   icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/me-32.jpeg', sizes: '32x32' },
-      { url: '/me-192.jpeg', sizes: '192x192' },
-    ],
-    apple: [
-      { url: '/me-180.jpeg', sizes: '180x180' },
-    ],
+    icon: "/me.jpeg",
   },
 };
 
