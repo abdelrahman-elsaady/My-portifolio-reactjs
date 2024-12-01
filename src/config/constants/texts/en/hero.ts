@@ -13,5 +13,5 @@ export const hero: HeroTexts = {
     },
   ],
   subtitle:
-    "Specialized in React.js Next.js, Node.js and to create modern and efficient web applications",
+    "Passionate Full Stack Developer committed to continuous learning and building innovative solutions",
 };
