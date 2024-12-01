@@ -2,8 +2,8 @@ import { AboutMeTexts } from "@/types/texts";
 
 export const aboutme: AboutMeTexts = {
   title: "Hello, my name is ",
-  subtitle: "Web Developer",
-  role: "Fullstack Developer / Next.js, React.js and Node.js",
+  subtitle: "Full Stack Developer",
+  role: "Full Stack Developer | Node.js | MongoDB | React.js | Angular | Next.js",
   description:
-    "Fullstack Developer with experience in developing modern and efficient web applications using technologies such as Next.js, Node.js and .React.js",
+    "Passionate Full Stack Developer specializing in modern JavaScript ecosystems. Proficient in MERN stack (MongoDB, Express, React, Node.js), Angular, and Next.js. Committed to continuous learning and building efficient web solutions.",
 }
