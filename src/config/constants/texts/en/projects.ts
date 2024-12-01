@@ -16,8 +16,9 @@ export const projects: ProjectsTexts = {
       link:"https://e-commerce-by-js-html-css.vercel.app/",
       title: "dessert store e-commerce",
       description:
-        "Dessert store e-commerce made with html , css ,js   ",
+        "Dessert store e-commerce made with native js  css  html  ",
       tags: [
+        tags["VanillaJs"],
         tags["Css"],
         tags["Html"],
         tags["Js"],
@@ -35,7 +36,11 @@ export const projects: ProjectsTexts = {
         "A clone of a famous freelance website using Next.js and Nodejs ,MongoDb",
       tags: [tags["React.js"], tags["MongoDB"], 
       tags["Next.js"],
-      tags["Node.js"]
+      tags["Node.js"],
+      tags["RestApi"],
+      tags["Tailwind"],
+       
+      
     ],
       image: img_windows,
       github: "https://github.com/abdelrahman-elsaady/Mostaqel-nextjs",
@@ -49,9 +54,12 @@ export const projects: ProjectsTexts = {
         "Simple movie App made with React.js to follow the newest movie in the world",
       tags: [
         tags["React.js"],
-        // tags[""],
-        // tags[""],
-        // tags[""],
+        tags["ReduxToolkit"],
+        tags["Bootstrap"],
+        tags["Api"],
+
+
+      
       ],
       image: img_crud,
       github: "https://github.com/abdelrahman-elsaady/movie-App",
@@ -63,11 +71,20 @@ export const projects: ProjectsTexts = {
       title: "mostaqel clone Dashbourd",
 
       description: "Dashbourd for mostaqel clone using Angular and Nodejs.",
-      tags: [tags["Angular"], tags["Node.js"]],
+      tags: [
+        tags["Angular"],
+         tags["Node.js"],
+         tags["RestApi"],
+         tags["Tailwind"],
+
+        ],
       image: img_instagram,
       github: "https://github.com/abdelrahman-elsaady/mostaqel.clone.dachbourd",
       link: "https://github.com/abdelrahman-elsaady/mostaqel.clone.dachbourd",
       // link:
+      width: 1376,
+      height: 779,    
+      
     },
     {
       title: "mostaqel clone Node.js ",
@@ -83,7 +100,12 @@ export const projects: ProjectsTexts = {
       title: "E-commerce Node.js ",
       description:
         "E-commerce api system made with Node.js, Express.js and MongoDB.",
-        tags: [tags["Node.js"], tags["MongoDB"]],
+        tags: [
+          tags["Node.js"], 
+        tags["MongoDB"],
+        tags["RestApi"],
+
+      ],
 
       image: img_minesweeper,
       github: "https://github.com/abdelrahman-elsaady/e-commerce-node.js",

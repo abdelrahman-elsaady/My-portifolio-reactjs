@@ -1,6 +1,34 @@
 import { Tag } from "@/types/tag";
 
 export const tags = {
+  "VanillaJs": {
+    name: "VanillaJs",
+    color: "#39b89a",
+  },
+  "Redux": {
+    name: "Redux",
+    color: "#39b89a",
+  },
+  "RestApi": {
+    name: "RestApi",
+    color: "#39b89a",
+  },
+  "ReduxToolkit": {
+    name: "ReduxToolkit",
+    color: "#39b89a",
+  },
+  "Tailwind": {
+    name: "Tailwind",
+    color: "#39b89a",
+  },
+  "Bootstrap": {
+    name: "Bootstrap",
+    color: "#39b89a",
+  },
+  "Api": {
+    name: "Api",
+    color: "#39b89a",
+  },
   "Next.js": {
     name: "Next.js",
     color: "#39b89a",
