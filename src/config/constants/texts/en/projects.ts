@@ -13,7 +13,7 @@ export const projects: ProjectsTexts = {
   title: "Projects",
   projects: [
     {
-      link:"https://e-commerce-by-js-html-css.vercel.app/",
+      link:"https://github.com/abdelrahman-elsaady/e-commerce-by-js-html-css",
       title: "dessert store e-commerce",
       description:
         "Dessert store e-commerce made with native js  css  html  ",
