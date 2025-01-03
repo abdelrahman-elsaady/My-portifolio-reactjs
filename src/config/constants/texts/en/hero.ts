@@ -2,7 +2,7 @@ import { HeroTexts } from "@/types/texts";
 
 export const hero: HeroTexts = {
   greetings: "Hello, my name is",
-  cvButton: "Download CV",
+  cvButton: "Download Resume",
   title: [
     {
       content: "Fullstack",
