@@ -34,6 +34,7 @@ export const ContactForm = ({ texts }: Props) => {
   }
 
   return (
+    // <div className="mb-5">
     <form action={handleSend} className="flex flex-col gap-4 mt-8">
       <div className="space-y-2">
         <InputLabel htmlFor="name">{texts.nameLabel}</InputLabel>
@@ -72,5 +73,6 @@ export const ContactForm = ({ texts }: Props) => {
       </div>
       <ButtonForm>{texts.sendButton}</ButtonForm>
     </form>
+    // </div>
   );
 };

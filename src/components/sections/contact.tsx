@@ -10,7 +10,7 @@ export const Contact = ({ texts }: Props) => {
   return (
     <section
       id="contact-me"
-      className="grid grid-cols-2 py-24 md:py-32 px-4 md:px-20 text-white h-dvh [&>*]:z-10 max-md:flex max-md:flex-col"
+      className="grid grid-cols-2 py-24 md:py-32 px-4 md:px-20 text-white [&>*]:z-10 max-md:flex max-md:flex-col"
     >
       <div>
         <div className="flex ">
