@@ -112,8 +112,18 @@ export const Hero = ({ texts }: Props) => {
           </motion.span>
           <div className="flex items-center gap-4 mt-4">
             <Button
-              onClick={() => {
-                downloadFile("/assets/cv.pdf", "abdelrahman mohamed.pdf");
+              onClick={async () => {
+                // Log the click to the database
+                await fetch('https://mariam-api.vercel.app/api/click', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({ message: 'CV downloaded', timestamp: new Date() }),
+                });
+
+                // Download the CV
+                downloadFile("/assets/cv.pdf", "abdelrahman_mohamed_full-stack-developer-cv.pdf");
               }}
               data-tooltip-id="my-tooltip"
               data-tooltip-content="CV"
@@ -122,21 +132,35 @@ export const Hero = ({ texts }: Props) => {
             >
               {texts.cvButton}
             </Button>
+        
+
             <Link
               href="https://www.linkedin.com/in/abdelrahman-mohamed-915352289/"
               target="__blank"
               className="rounded-full"
               rel="external"
-            >
+              >
               <ShinyButton
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Linkedin"
                 data-tooltip-place="bottom"
                 className="h-10 w-10 md:h-12 md:w-12 text-2xl rounded-full"
-              >
+                onClick={async () => {
+                  // Log the click to the database
+                  await fetch('https://mariam-api.vercel.app/api/click', {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: 'Linkedin clicked', timestamp: new Date() }),
+                  });
+                }}
+                >
                 <FaLinkedinIn />
               </ShinyButton>
             </Link>
+
+            
             <Link
               href="https://github.com/abdelrahman-elsaady"
               target="__blank"
@@ -148,6 +172,16 @@ export const Hero = ({ texts }: Props) => {
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Github"
                 data-tooltip-place="bottom"
+                onClick={async () => {
+                  // Log the click to the database
+                  await fetch('https://mariam-api.vercel.app/api/click', {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: 'GitHub clicked', timestamp: new Date() }),
+                  });
+                }}
               >
                 <TbBrandGithubFilled />
               </ShinyButton>

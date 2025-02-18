@@ -13,6 +13,7 @@ interface Props {
 
 export const Navbar = ({ text }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
+  
   console.log(isOpen);
 
   return (
